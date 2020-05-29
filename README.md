@@ -1,12 +1,12 @@
 # textclean
 
-Following is code example :
-from textpreprocess import process
-sentences=["Hello world example 1 , true that.","Sentence number 2 it is for example" , "This is sentence number 3 and the last one"]
-a=process
-sent=a.simpleForm(sentences,False)
-print(sent)
-vocab=a.getVocab(sent)
-print(vocab)
-vecs=a.getSentenceasVectors(sent,vocab)
-print(vecs)
+Following is code example :<br>
+from textpreprocess import process<br>
+sentences=["Hello world example 1 , true that.","Sentence number 2 it is for example" , "This is sentence number 3 and the last one"]<br>
+a=process<br>
+sent=a.simpleForm(sentences,False)<br>
+print(sent)<br>
+vocab=a.getVocab(sent)<br>
+print(vocab)<br>
+vecs=a.getSentenceasVectors(sent,vocab)<br>
+print(vecs)<br>
